@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -10,6 +10,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -67,4 +68,53 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+
+
+
+TodoList Application
+Description
+
+A simple TodoList application developed using React, PHP and MySQL.
+
+Technologies
+React
+PHP
+MySQL
+phpMyAdmin
+Git and GitHub
+Features
+Add new tasks
+Mark tasks as completed (Done)
+Undo completed tasks
+Delete tasks
+Display tasks
+Project Structure
+src/: React frontend
+public/: Public files
+backend/: PHP backend
+backend/index.php: API for managing tasks
+Installation and Execution
+1. Database
+Start Apache and MySQL using XAMPP.
+Open phpMyAdmin.
+Create a database named todolist.
+Create the todo table.
+2. Backend
+Place the backend folder in C:\xampp\htdocs\todolist-api.
+Start Apache and MySQL.
+3. Frontend
+
+Run the following commands:
+
+bash
+npm install
+npm start
+
+
+Open: http://localhost:3000
+
+GitHub Repository
+
+https://github.com/sallabfadwa-beep/TodoList
