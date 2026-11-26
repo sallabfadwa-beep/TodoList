@@ -1,0 +1,98 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+header ul{
+    display: flex;gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+h2{margin-bottom: 10px;}
+/* home page  */
+.home{
+    padding: 10px;
+}
+.home h1{
+    text-align: center;
+}
+
+/* list articles page */
+.recherche select {
+    font-size: 1em;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+thead tr{background-color: #ccc;}
+tbody tr:nth-child(even){background-color: #ccc;}
+tbody td:nth-child(1){text-align: left;}
+
+/* ajouter + modifier page  */
+form{
+    border: 1px solid;
+    display: grid;gap: 10px;
+    grid-template-columns: 1fr;
+    padding: 10px;margin-top:10px ;
+    width: 400px;
+}
+label{font-weight: bolder;}
+input,  select, textarea, button{
+    font-size: 1em;
+    padding: 5px;
+    width: 100%;
+}
+form textarea{height: 120px;resize:none;}
+@media  (max-width:600px) {
+    form{width: 100%;}
+}
+
+/* detail card  */
+.detailCard{
+    border: 1px solid;
+}
+
+/* btns */
+/* table a{
+    border: 1px solid black;
+    color: black;
+    padding: 7px 10px;
+    text-decoration: none;
+    background-color: rgb(240, 240, 240);
+}
+.detailBtn,
+.deleteBtn,
+.modifierBtn{
+    padding: 7px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.deleteBtn{background-color: rgb(211, 69, 69);}
+.modifierBtn{background-color: rgb(56, 56, 180);}
+.detailBtn{background-color: rgb(70, 170, 70);}  */
+.deleteBtn{color: rgb(211, 69, 69);}
+.modifierBtn{color: rgb(56, 56, 180);}
+.detailBtn{color: rgb(70, 170, 70);} 

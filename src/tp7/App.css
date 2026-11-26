@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+nav {
+  background: #222;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+form, .item {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+input, textarea {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}

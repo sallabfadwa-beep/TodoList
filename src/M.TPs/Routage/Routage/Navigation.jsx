@@ -1,0 +1,18 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+function Navigation() {
+  return (
+    <nav>
+        <ul>
+            <li><Link to='/'>accueil</Link></li>
+            <li><Link to='/about'>About</Link></li>
+            <li><Link to='/blog'>Blog</Link></li>
+            <li><Link to='/users'>Users</Link></li>
+        </ul>
+
+    </nav>
+  )
+}
+
+export default Navigation

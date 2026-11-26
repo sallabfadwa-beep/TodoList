@@ -1,0 +1,10 @@
+.card {
+    color : blue;
+    border : 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height : 600px;
+    background-color: pink;
+    text-align: center;
+    margin-bottom:10px;
+}

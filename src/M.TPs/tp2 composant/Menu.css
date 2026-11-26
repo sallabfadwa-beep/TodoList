@@ -1,0 +1,13 @@
+.liste{
+    background-color: rgb(210, 189, 189);
+    margin: 20px;
+    list-style-type: none;
+}
+
+.menu{
+    background-color: rgb(226, 222, 222);
+}
+
+#menu{
+    background-color: rgb(226, 222, 222);
+}

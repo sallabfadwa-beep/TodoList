@@ -1,0 +1,42 @@
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+}
+
+.responsable {
+  background: #f2f2f2;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+.carteCours {
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #ddd;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.complet {
+  background: #f8d7da;
+}
+
+.disponible {
+  background: #d4edda;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+li {
+  margin: 6px 0;
+}

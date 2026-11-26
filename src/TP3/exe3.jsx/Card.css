@@ -1,0 +1,13 @@
+div{
+    margin: 5px;
+}
+h3{
+    background-color: pink;
+}
+div,p{
+    background-color:rgb(240, 237, 237) 
+}
+button{
+    margin: 20px;
+    padding: 10px;
+}

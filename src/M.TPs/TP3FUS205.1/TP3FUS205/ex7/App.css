@@ -1,0 +1,23 @@
+.complet{
+    background-color: red;
+}
+
+.disponible
+{
+   background-color: aquamarine;
+}
+
+ul {
+    padding : 5px;
+    margin : 5px;
+    
+    width :300px;
+    list-style-type: none;
+    margin:auto;
+    
+}
+ul li {
+    margin : 2px;
+    background-color: bisque;
+
+}

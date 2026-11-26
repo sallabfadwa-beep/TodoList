@@ -1,0 +1,56 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.navbar {
+  background: #343a40;
+  color: white;
+  padding: 15px;
+}
+
+.add-form {
+  display: flex;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background: #087bdf;
+  color: white;
+  border: none;
+  margin: 3px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+.completed {
+  background: #c3e6cb;
+}
+
+.pending {
+  background: #ffeeba;
+}

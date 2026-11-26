@@ -1,0 +1,38 @@
+.app {
+  background-color: #ffd8a8;
+  min-height: 100vh;
+  padding: 30px;
+  text-align: center;
+}
+
+.etudiants {
+  background-color: #bde0fe;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.etudiant {
+  background-color: #dbeafe;
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #999;
+}
+
+.etudiant button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.etudiant button:disabled {
+  cursor: not-allowed;
+}

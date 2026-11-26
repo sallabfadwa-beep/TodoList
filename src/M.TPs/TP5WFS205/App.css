@@ -1,0 +1,57 @@
+
+.header {
+    border: 1px solid;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.chercherBar {
+    padding: 5px 10px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+.chercherBar select{
+    margin: 0px auto;
+    width: 200px;
+}
+.ResultatList{
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin: 10px;
+}
+.ResultatList table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr, td{
+    border: 1px solid;
+    padding: 5px 20px;
+    text-align: center;
+}
+.footer{
+    border: 1px solid aqua;
+    background-color: beige;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.form-section{
+    border: 1px solid ;
+    padding: 10px;
+    margin: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 5px;
+    width: 300px;
+}
+form input{
+    padding: 5px 20px;
+}
+form button, select{
+    padding: 5px 10px;
+}

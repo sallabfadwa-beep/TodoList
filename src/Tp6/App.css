@@ -1,0 +1,191 @@
+/* ===== STYLE GENERAL ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6fb;
+  color: #263248;
+  min-height: 100vh;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+  background: linear-gradient(135deg, #4338ca, #6366f1);
+  padding: 22px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  box-shadow: 0 4px 15px rgba(67, 56, 202, 0.2);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fbbf24;
+  transform: translateY(-2px);
+}
+
+/* ===== TITRES ===== */
+h2 {
+  text-align: center;
+  margin: 35px 0;
+  color: #3730a3;
+  font-size: 27px;
+}
+
+/* ===== CONTENEUR ===== */
+.container,
+form {
+  background: white;
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+/* ===== FORMULAIRES ===== */
+label {
+  display: block;
+  margin: 15px 0 8px;
+  font-weight: 600;
+  color: #374151;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* ===== BOUTONS ===== */
+button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px 5px 0 0;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #3730a3;
+  transform: translateY(-2px);
+}
+
+/* ===== TABLEAU ===== */
+table {
+  width: 90%;
+  margin: 25px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+thead {
+  background: #4f46e5;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:hover {
+  background: #eef2ff;
+}
+
+/* ===== LIENS DANS TABLEAU ===== */
+td a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 4px;
+}
+
+td a:hover {
+  color: #e11d48;
+  text-decoration: underline;
+}
+
+/* ===== PAGE ACCUEIL ===== */
+ul {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 25px 45px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+li {
+  padding: 12px;
+  font-size: 17px;
+}
+
+/* ===== PAGE SUPPRESSION ===== */
+p {
+  text-align: center;
+  margin: 18px;
+  font-size: 16px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 18px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  form {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+}

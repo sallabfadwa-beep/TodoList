@@ -1,0 +1,17 @@
+.menu{
+    background-color: aquamarine;
+    color:'blue';
+}
+
+.liste {
+    background-color: aqua;
+    width : 200px;
+    padding : 10px;
+    list-style-type: none;
+    
+}
+
+.liste li {
+    background-color: azure;
+    margin:5px;
+}

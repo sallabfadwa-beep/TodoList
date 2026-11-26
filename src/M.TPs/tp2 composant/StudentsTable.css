@@ -1,0 +1,24 @@
+.admis{
+    color: rgb(66, 179, 66);
+    font-weight: bold;
+
+}
+.ajourne{
+    color: rgb(236, 43, 43);
+    font-weight: bold;
+}
+
+.table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+.table th,td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+h2{
+    text-align: center;
+}
